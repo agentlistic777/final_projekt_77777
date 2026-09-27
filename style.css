@@ -1,86 +1,75 @@
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
-    color: rgb(235, 255, 255);
-    background-color: #0d3b3e;
-    line-height: 1.6;
-    gap: 40px;
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  color: rgb(235, 255, 255);
+  background-color: #0d3b3e;
+  line-height: 1.6;
+  gap: 40px;
 }
-a{
-    text-decoration: none;
-    color: rgb(52, 135, 138);
-}
-.header{
-    background-color: rgb(7, 37, 39);
-    border-bottom:2px ;
 
-    position: sticky;
-    top: 0;
-    z-index: 100;
+a {
+  text-decoration: none;
+  color: rgb(52, 135, 138);
+}
+
+.header {
+  background-color: #3ebfbe;
+  border-bottom: 2px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .header__inner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 auto;
-    padding: 0 20px;
-    height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 64px;
 }
 
 .logo {
-font-size: 30px;
-font-weight: bold;
-color:rgb(7, 37, 39);
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(7, 37, 39);
 }
 .nav {
-display: flex;
-gap: 24px;
+  display: flex;
+  gap: 24px;
 }
 
-.nav__link{
-color: ;
-font-size: 15px;
-transition: color 0.2s;
+.nav__link {
+  color:black;
+  font-size: 15px;
+  transition: color 0.2s;
 }
 .nav__link:hover {
-color: aquamarine;
-
+  color: aquamarine;
+}
+.slide__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background: linear-gradient(0.6turn, #051e1a, #031113);
+  height: 400px;
+  gap: 50px;
+  padding: 10px;
+}
+.slide__text {
+  width: 500px;
 }
 
- .dark-slide{
-background-color: #141824;
+img {
+  width: 200px;
+  height: 200px;
+  
 }
-.content{
-display: flex;
-
-justify-content: space-between;
-align-items: center;
-height: 100%;
-padding: 60px;
-}
-
-.slide{
-    width: 100%;
-max-width: 1000px;
-    height: 500px;
-    overflow: hidden;
-    position: relative;
-}
-
-
-
-
-
-
-
-
-
-
-
